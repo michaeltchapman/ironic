@@ -855,7 +855,7 @@ function install_virtualbmc {
         git_clone_by_name "virtualbmc"
         setup_dev_lib "virtualbmc"
     else
-        pip_install_gr "virtualbmc"
+        pip_install "virtualbmc"
     fi
 
     local cmd
